@@ -1,0 +1,24 @@
+Requirements
+
+1. Entities:
+a. Author (id, name, email)
+b. Book (id, title, price, author_id)
+Relationship:
+c. One Author → Many Books
+
+2. Implement CRUD APIs:
+a. Add Author
+b. Add Book under an Author
+c. Get all books of an Author
+d. Update/Delete Book
+
+3. Add Validation:
+a. Author email must be valid format
+b. Book title cannot be blank
+c. Price must be greater than 0
+
+4. Add Custom Exception Handling:
+a. AuthorNotFoundException
+b. BookNotFoundException
+
+5. Add Pagination when fetching all books.
